@@ -1,0 +1,162 @@
+
+a{
+    text-decoration: none;
+}
+
+ h2 {
+    color: #393939;
+    font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3563cede; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3564ce; 
+}
+
+/* nav */
+
+.nav-item a{
+    color: #000;
+    font: 600 0.875rem/0.875rem "Raleway", sans-serif;
+}
+
+.nav-item a.text-dark:hover{
+    color: #00bfd8;
+}
+
+/* header */
+
+.header{
+    background: url(../images/bg.png) center top / 100% no-repeat;
+    height: auto;  
+}
+
+.header {
+    animation-name: fadeIn;
+}
+
+.header h1 {
+    color: #000;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header h1 span {
+    color: #8382fe;
+}
+
+.about-btn {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #000;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #8382fe;
+}
+
+.about-btn:hover {
+    background: #8382fe;
+    color: #fff;
+}
+
+.bg_txt{
+    white-space: pre-line;
+}
+
+/*  cards-1 */
+
+.cards-1 {
+    padding-top: 4rem;
+    padding-bottom: 1.625rem;
+}
+
+.p-heading {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  margin-top: 1px;
+  scroll-margin: 50px 0 0 50px;
+  height: 2px;
+}
+
+.btn-solid-reg {
+    display: inline-block;
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    border: 0.125rem solid #00bfd8;
+    border-radius: 2rem;
+    background-color: #00bfd8;
+    color: #fff;
+    font: 700 0.75rem/0 "Raleway", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.basic-1 p {
+    color: #626262;
+    font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
+/* #clip */
+
+#clip{
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,42,194,1) 0%, rgba(58,58,215,1) 21%, rgba(68,68,219,1) 37%, rgba(6,123,167,1) 53%, rgba(5,100,181,1) 62%, rgba(4,119,193,1) 70%, rgba(3,142,209,1) 80%, rgba(2,156,218,1) 84%, rgba(0,212,255,1) 100%);
+}
+
+/*#testimonial*/
+
+#testimonial{
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,42,194,1) 0%, rgba(58,58,215,1) 21%, rgba(68,68,219,1) 37%, rgba(6,123,167,1) 53%, rgba(5,100,181,1) 62%, rgba(4,119,193,1) 70%, rgba(3,142,209,1) 80%, rgba(2,156,218,1) 84%, rgba(0,212,255,1) 100%);
+}
+
+@media (max-width: 768px)
+{
+    .pt-sm-9{
+    margin-top: 9rem!important;
+}
+}
+
+/* */
+.whatsapp {
+    position: fixed;
+    display: inline;
+    bottom: 15px;
+    background: #2e414d00;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
